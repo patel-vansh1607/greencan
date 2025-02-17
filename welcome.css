@@ -1,20 +1,18 @@
-body {background: #222;}
-
-/* leaf animations */
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* 
 #leaves {position:relative;top:-50px;width:100%;text-align: right;}
 
 #leaves i {
     display: inline-block;
-    width: 200px;
-    height: 150px;
     background: linear-gradient(to bottom right, #309900, #005600);
     transform: skew(20deg);
     border-radius: 5% 40% 70%;
     box-shadow: inset 0px 0px 1px #222;
     border: 1px solid #333;
-    z-index: 1;
+    z-index: 1000;
     -webkit-animation: falling 5s 0s infinite;
+    margin: 0;
+    padding: 0;
 }
 
 #leaves i:nth-of-type(2n) { -webkit-animation: falling2 5s 0s infinite; }
@@ -135,14 +133,14 @@ body {background: #222;}
             rotate(0deg);
         opacity: 0;
     }
-}
+} */
 
-*{
+ *{
     margin: 0;
-    padding: 0;
-}
+ }
 
 .img2{
     transform: scaleX(-1);
     float: right;
+    
 }
