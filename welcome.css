@@ -149,7 +149,10 @@ button {
     border-radius: 50px;
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
   }
-  
+
+  .fil0{
+    fill: #4aba6f;
+  }
   button:hover {
     border: 1px solid #bdd530;
     background: linear-gradient(
@@ -298,4 +301,15 @@ button {
     position: relative;
     top: -150px;
     width: 750px;
+}
+
+.sec3 {
+    text-align: center;
+    position: relative;
+    top: -80px; 
+  }
+.sec3 .btn1, .sec3 .btn2 {
+  display: inline-block;
+  margin: 0 30px; 
+  
 }
