@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img2{
+    transform: scaleX(-1);
+    float: right;
+}
