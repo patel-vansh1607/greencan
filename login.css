@@ -11,7 +11,7 @@
 }
 .form-container {
     width: 320px;
-    height: 370px;
+    height: 300px;
     border-radius: 0.75rem;
     background-image: url(./Images/form-bg.png);
     padding: 2rem;
@@ -152,7 +152,7 @@
   font-family: "Nunito", serif;
   color: #404040;
   text-align: center;
-  font-size: 14.5px;
+  font-size: 30px;
   position: relative;
   top: -260px;
 }
