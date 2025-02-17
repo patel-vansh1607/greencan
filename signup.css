@@ -137,4 +137,20 @@
     font-family: 'Nunito', serif;
     color: rgba(156, 163, 175, 1);
   }
-  
+  .mainlogo{
+    display: block; 
+    margin: 0 auto; 
+    position: relative;
+    top: -150px;
+    width: 750px;
+}
+
+.sec2 h4{
+  font-family: "Nunito", serif;
+  color: #404040;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: -100px;
+  left: 200px;
+}
