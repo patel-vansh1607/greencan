@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-/* #leaves {
+#leaves {
   position: absolute;
   top: -50px;
   width: 100%;
@@ -212,7 +212,7 @@
     transform: translate3d(-400px, 680px, 0) rotate(0deg);
     opacity: 0;
   }
-} */
+}
 
 
 button {
