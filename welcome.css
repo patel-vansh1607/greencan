@@ -162,6 +162,7 @@ button {
     );
     animation: wind 3s ease-in-out infinite;
     color: #117a3d; 
+    font-weight: bolder;
 }  
   
   @keyframes wind {
