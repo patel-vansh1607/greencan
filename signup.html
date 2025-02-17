@@ -24,18 +24,18 @@
                 <div class="form-container">
                     <form class="form">
                         <div class="input-group">
-                            <input type="text" name="fullname" id="fullname" placeholder="Full Name">
+                            <input type="text" name="fullname" id="fullName" placeholder="Full Name" required>
                         </div>
                         <div class="input-group">
-                            <input type="email" name="email" id="email" placeholder="Email">
+                            <input type="email" name="email" id="email" placeholder="Email" required>
                         </div>
                         <div class="input-group">
-                            <input type="password" name="password" id="password" placeholder="Password">   
+                            <input type="password" name="password" id="password" placeholder="Password" required>   
                         </div>
                         <div class="input-group">
-                            <input type="password" name="password" id="password" placeholder="Confirm Password">
+                            <input type="password" name="password" id="confirmPassword" placeholder="Confirm Password" required>
                             <div class="forgot">
-                                <a rel="noopener noreferrer" href="#">Forgot Password ?</a>
+                                <button rel="noopener noreferrer" href="#">Forgot Password ?</button>
                             </div>
                         </div>
                         
@@ -64,15 +64,13 @@
                         </button>
                     </div>
                     <p class="signup">Don't have an account?
-                        <a rel="noopener noreferrer" href="#" class="">Sign up</a>
+                        <button id="submitButton" >Sign up</button>
                     </p>
                 </div>
         </div>
         </div>
     </div>
+    <script src="./signup.js"></script>
 </body>
 </html>
 
-<div class="forgot">
-    <a rel="noopener noreferrer" href="#">Forgot Password ?</a>
-</div>
