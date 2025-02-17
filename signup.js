@@ -21,3 +21,8 @@ email.addEventListener("change", (e) =>{
     const name = e.target.value
     details.email = name
 })
+
+password.addEventListener("change", (e) =>{
+    const name = e.target.value
+    details.password = name
+})
