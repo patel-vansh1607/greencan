@@ -26,3 +26,8 @@ password.addEventListener("change", (e) =>{
     const name = e.target.value
     details.password = name
 })
+
+confirmPassword.addEventListener("change", (e) => {
+    const name = e.target.value
+    details.confirmPassword = name
+})
