@@ -39,3 +39,11 @@ body {
     object-fit: cover;
     display: block;
 }
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #117A3D;
+    position: relative;
+    z-index: 2;
+}
