@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Testing </title>
+    <link rel="stylesheet" href="./main.css">
+    
 </head>
 <body>
-    <h1> HIIIIIIIIIIIIIIIII</h1>
+    <h1>Testing Ground</h1>
+    <div id="con1">
+        t<div>
+            <form action="https://formsubmit.co/pvansh830@gmail.com" method="POST">
+            <label for="firstName"></label>
+            <input 
+            id="firstName"
+             name="firstName" 
+             type="text" 
+             placeholder="First Name" 
+             required
+             maxlength="25"
+             />
+        </div>
+        <div>
+            <label for="lastName"></label>
+            <input id="lastName"
+            name="lastName" 
+            type="text" 
+            placeholder="Last Name" 
+            required
+            maxlength="25"
+            />
+        </div>
+        <div>
+            <label for="email"></label>
+            <input id="email" name="email" type="email" placeholder="Email" required>
+        </div>
+        <div>
+            <label for="phoneNumber"></label>
+            <input id="phoneNumber" name="phoneNumber" type="number" placeholder="Phone Number" required>
+        </div>
+        <div>
+            <span id="alert-password" class="alert-off-message">Passwords Do Not Match, Please Check your password again</span>
+        </div>
+        <div>
+            <label for="password"></label>
+            <input id="password" name="password" type="password" placeholder="Password" required>
+        </div>
+        <div>
+            <label for="confirmPassword"> </label>
+            <input id="confirmPassword" name="confirmPassword" type="password" placeholder="Confirm Password" required>
+        </div>
+        <div>
+            <label for="acceptTerms">I ACCEPT TERMS AND CONDTIONS</label>
+            <input id="acceptTerms" name="acceptTerms" type="checkbox" placeholder="Accept Terms" required>
+        </div>
+    </div>
+
+        <div>
+            <button id="submitButton">SUBMIT</button>
+        </div>
+    </div>
+</form>
+    <script src="./main.js"></script>
 </body>
 </html>
