@@ -89,3 +89,8 @@ body {
     color: #117A3D;
     cursor: pointer;
 }
+
+
+.popup-content h2 {
+    margin-top: 0;
+}
