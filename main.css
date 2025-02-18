@@ -180,6 +180,11 @@ img {vertical-align: middle;}
 .introduction{
   padding-top: 200px;
 }
+.introduction .p1{
+  font-family: 'Nunito', serif  ;
+  font-weight: 700;
+  font-size: 35px;
+}
 .introduction .p2{
   font-family: 'Nunito', serif;
   padding-left: 80px;
