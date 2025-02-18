@@ -24,7 +24,6 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
-    float: right;
 }
 .nav-links li {
     display: inline;
