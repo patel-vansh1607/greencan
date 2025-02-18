@@ -56,3 +56,16 @@ body {
     height: 50%;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
 }
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
