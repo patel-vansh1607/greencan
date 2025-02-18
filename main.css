@@ -177,7 +177,16 @@ img {vertical-align: middle;}
   padding-left: 80px;
 }
 
+.introduction{
+  padding-top: 200px;
+}
 .introduction .p2{
   font-family: 'Nunito', serif;
-  font-size: 35px;
+  padding-left: 80px;
+  font-size: 30px;
+}
+
+.introduction .p2 span{
+  color: #117A3D;
+  font-weight: bolder;
 }
