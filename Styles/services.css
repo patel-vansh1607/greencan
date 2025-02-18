@@ -22,3 +22,6 @@ body {
     position: relative;
     cursor: pointer; /* Add cursor pointer for better UX */
 }
+.card:hover {
+    transform: scale(1.05);
+}
