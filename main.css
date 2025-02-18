@@ -87,11 +87,15 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 100vw;
+  height: 100vh;
   position: relative;
   margin: auto;
 }
-
+.slideshow-container img{
+  width: 100vw;
+  height: 100vh;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
