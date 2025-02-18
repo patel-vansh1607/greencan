@@ -6,7 +6,7 @@ body {
 }
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     background-color: #1C3D2D ;
     padding: 15px 20px;
@@ -24,6 +24,7 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
+    float: right;
 }
 .nav-links li {
     display: inline;
@@ -32,6 +33,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    font-family: 'Nunito', serif;
     transition: color 0.3s ease-in-out;
 }
 .nav-links a:hover {
@@ -40,7 +42,8 @@ body {
 .profile {
     position: relative;
     display: flex;
-    align-items: center;
+    padding-right: 20px;
+    justify-content: flex-end; 
 }
 .profile img {
     width: 40px;
