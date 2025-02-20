@@ -129,3 +129,11 @@ body {
     color: #117A3D;
     font-family: 'Nunito', sans-serif;
 }
+
+.mainsec .topdiv .arrow{
+    color: #117A3D;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 80px;
+    position: relative;
+    top: -460px;
+}
