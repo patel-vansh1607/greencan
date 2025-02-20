@@ -157,7 +157,12 @@ body {
 }
 
 
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.pricing{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
 .snip1404 {
   font-family: 'Source Sans Pro', Arial, sans-serif;
   color: #ffffff;
@@ -308,4 +313,10 @@ body {
     padding: 20px;  
   }
   
+  .mainsec .img1{
+    width: 300px;
+    position: relative;
+    top: -630px;
+    left: 710px;
+  }
 
