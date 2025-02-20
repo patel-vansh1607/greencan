@@ -94,3 +94,8 @@ body {
 .popup-content h2 {
     margin-top: 0;
 }
+
+.mainsec .topdiv img{
+    width: 100%;
+    height: 600px;
+}
