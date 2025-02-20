@@ -9,7 +9,9 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
-    padding: 20px 80px; 
+    padding-left: 80px;
+    padding-right: 80px; 
+    position: relative;
 }
 .card {
     background-color: white;
@@ -20,7 +22,7 @@ body {
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
     position: relative;
-    cursor: pointer; /* Add cursor pointer for better UX */
+    cursor: pointer; 
 }
 .card:hover {
     transform: scale(1.05);
@@ -100,12 +102,30 @@ body {
     height: 600px;
 }
 
+
+.mainsec .topdiv{
+    font-size: 20px;
+}
 .mainsec .topdiv h2{
     color: #117A3D;
     font-family: 'Nunito', sans-serif;
     z-index: 2;
     padding-left: 80px;
     position: relative;
-    top: -400px;
+    top: -450px;
     font-weight: bolder;
+}
+
+.mainsec .topdiv p{
+    color: #404040;
+    font-family: 'Nunito', sans-serif;
+    z-index: 2;
+    padding-left: 80px;
+    position: relative;
+    top: -440px;
+    font-weight: bolder;
+}
+.mainsec .topdiv span{
+    color: #117A3D;
+    font-family: 'Nunito', sans-serif;
 }
