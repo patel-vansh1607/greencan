@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'LovelyHome';
+    src: url(/Fonts/LovelyHome-9aBZ.ttf);
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #E0EECC; 
@@ -141,4 +146,12 @@ body {
     top: -537px ;
     z-index: 2
     
+}
+.mainsec .title{
+    font-family: 'LovelyHome', sans-serif ;
+    font-size: 150px;
+    position: relative;
+    top: -350px;
+    display: flex;
+    justify-content: center;
 }
