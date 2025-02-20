@@ -1,3 +1,8 @@
+@font-face {
+    font-family:'Lovely-Home';
+    src: url(/Fonts/LovelyHome-9aBZ.ttf);
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #E0EECC; 
@@ -12,6 +17,7 @@ body {
     padding-left: 80px;
     padding-right: 80px; 
     position: relative;
+    top: -100px;
 }
 .card {
     background-color: white;
@@ -144,3 +150,5 @@ body {
     position: relative;
     top: -517px;
 }
+
+
