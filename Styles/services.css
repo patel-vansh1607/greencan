@@ -17,7 +17,7 @@ body {
     padding-left: 80px;
     padding-right: 80px; 
     position: relative;
-    top: -100px;
+    top: -600px;
 }
 .card {
     background-color: white;
@@ -151,4 +151,13 @@ body {
     top: -517px;
 }
 
-
+.mainsec .header{
+    font-family:'Lovely-Home', sans-serif;
+    color: #117A3D;
+    font-size: 180px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -450px;
+    padding: 0;
+}
