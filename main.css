@@ -195,3 +195,16 @@ img {vertical-align: middle;}
   color: #117A3D;
   font-weight: bolder;
 }
+
+
+.overview{
+ 
+
+  height: 1;
+
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 5px 5px 10px #1C3D2D; /* Example with offset, blur, and color */
+  background-color: #1C3D2D;
+}
