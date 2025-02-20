@@ -196,15 +196,37 @@ img {vertical-align: middle;}
   font-weight: bolder;
 }
 
+body .overview {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: relative;
+  top: 100px;
+}
+ .box {
+  width: 100%;
+  max-width: 1000px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  border-left: 5px solid #28a745; /* Green highlight on the left */
+} 
 
-.overview{
- 
+.box h2 {
+  color: #28a745;
+  font-weight: 700;
+}
 
-  height: 1;
+.box p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
 
-  width: 200px;
-  padding-left: 10px;
-  padding-right: 10px;
-  box-shadow: 5px 5px 10px #1C3D2D; /* Example with offset, blur, and color */
-  background-color: #1C3D2D;
+.highlight {
+  font-weight: 600;
+  color: #28a745;
 }
