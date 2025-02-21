@@ -249,9 +249,18 @@ body {
   margin: 0;
   list-style: outside none none;
 }
+.plan-features li {
+  list-style-type: none; 
+}
+
+.plan-features li::before {
+  content: "•"; 
+}
+
 .snip1404 .plan-features li {
   padding: 8px 5%;
 }
+
 .snip1404 .plan-features i {
   margin-right: 8px;
   color: rgba(0, 0, 0, 0.5);
@@ -352,4 +361,11 @@ body {
   transform: translate(-50%, -50%); 
   width: 400px;
   height: auto; 
+}
+
+.mainsec .pricing .text .intro{
+  font-family: 'Nunito', sans-serif;
+  padding-left: 80px;
+  font-size: 20px;
+  line-break: normal;
 }
