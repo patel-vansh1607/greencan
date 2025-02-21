@@ -171,6 +171,8 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: 50px 10px;
+  position: relative;
+  top: 400px;
 }
 .snip1404 img {
   position: absolute;
@@ -330,4 +332,24 @@ body {
   transform: translate(-50%, -50%); 
   width: auto;
   height: auto;
+}
+
+.pricing .text img{
+  z-index: 2;
+  position: absolute; 
+  top: 90px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  width: 400px;
+  height: auto; 
+}
+
+.mainsec .topdiv .title .img1{
+  z-index: 2;
+  position: absolute; 
+  top: 90px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  width: 400px;
+  height: auto; 
 }
