@@ -156,6 +156,24 @@ body {
     justify-content: center;
 }
 
+.pricing1 .texxt .p111{
+  font-family: 'LovelyHome', sans-serif;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+}
+ 
+.pricing1 .texxt .imgg{
+  font-family: 'LovelyHome', sans-serif;
+  display: block;
+  margin: auto;
+  width: 400px;
+  position: relative;
+  top: -20px;
+}
+
 
 .container {
   display: flex;
