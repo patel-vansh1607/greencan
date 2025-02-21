@@ -17,6 +17,7 @@ body {
     padding-left: 80px;
     padding-right: 80px; 
     position: relative;
+    top: -400px;
 }
 .card {
     background-color: white;
@@ -155,7 +156,10 @@ body {
     display: flex;
     justify-content: center;
 }
-
+.pricing1{
+  position: relative;
+  top: -500px;
+}
 .pricing1 .texxt .p111{
   font-family: 'LovelyHome', sans-serif;
   font-size: 100px;
