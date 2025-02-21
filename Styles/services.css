@@ -166,7 +166,6 @@ body {
 }
  
 .pricing1 .texxt .imgg{
-  font-family: 'LovelyHome', sans-serif;
   display: block;
   margin: auto;
   width: 400px;
@@ -174,6 +173,13 @@ body {
   top: -20px;
 }
 
+.mainsec  .img1{
+  display: block;
+  margin: auto;
+  width: 400px;
+  position: relative;
+  top: -540px;
+}
 
 .container {
   display: flex;
