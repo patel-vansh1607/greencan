@@ -2,7 +2,13 @@
     font-family: 'LovelyHome';
     src: url(/Fonts/LovelyHome-9aBZ.ttf);
 }
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0EECC;
+    text-align: center;
+}
 .navbar {
     display: flex;
     justify-content: space-between; 
@@ -78,13 +84,7 @@
 .profile:hover .dropdown {
     display: block;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f0f0f0;
-    text-align: center;
-}
+
 .maindiv2 .p90{
     font-family: 'Nunito', sans-serif;
     font-size: 50px;

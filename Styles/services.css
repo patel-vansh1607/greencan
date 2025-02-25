@@ -2,7 +2,9 @@
     font-family: 'LovelyHome';
     src: url(/Fonts/LovelyHome-9aBZ.ttf);
 }
-
+body{
+    background-color: #E0EECC;
+}
 .navbar {
     display: flex;
     justify-content: space-between; 
