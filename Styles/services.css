@@ -258,12 +258,14 @@ body {
     padding-left: 80px;
     padding-right: 80px;
     font-size: 25px;
+    font-weight: 600;
 }
 
 .pricing1 .texxt .intro span {
     font-family: 'Nunito', sans-serif;
     color: #117A3D;
     font-size: 25px;
+    font-weight: 800;
 }
 .mainsec  .img1{
   display: block;
