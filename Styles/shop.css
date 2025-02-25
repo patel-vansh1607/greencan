@@ -123,33 +123,33 @@ header {
 .cart-sidebar.active {
     right: 0;
 }
-
-.receipt {
-    font-family: 'Nunito', sans-serif;
-    width: 300px;
-    padding: 20px;
-    border: 2px solid #000;
-    background: #fff;
-    text-align: center;
-    margin: auto;
-}
-.receipt h2 {
-    margin: 10px 0;
-}
-.receipt-logo {
-    width: 80px;
-    height: auto;
-}
-.receipt-items {
-    text-align: left;
-    margin-bottom: 10px;
-}
-.receipt-items div {
+#cart-btn {
+    position: relative;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
     display: flex;
-    justify-content: space-between;
-}
-.receipt-footer {
-    margin-top: 20px;
-    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out;
 }
 
+#cart-btn:hover {
+    background-color: #367c39;
+}
+
+#cart-btn::before {
+    content: "🛒";
+    position: absolute;
+    left: -40px;
+    font-size: 20px;
+    transition: left 0.5s ease-in-out;
+}
+
+#cart-btn:hover::before {
+    left: 10px;
+}
