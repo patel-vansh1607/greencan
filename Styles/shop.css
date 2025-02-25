@@ -124,3 +124,32 @@ header {
     right: 0;
 }
 
+.receipt {
+    font-family: 'Nunito', sans-serif;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #000;
+    background: #fff;
+    text-align: center;
+    margin: auto;
+}
+.receipt h2 {
+    margin: 10px 0;
+}
+.receipt-logo {
+    width: 80px;
+    height: auto;
+}
+.receipt-items {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.receipt-items div {
+    display: flex;
+    justify-content: space-between;
+}
+.receipt-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
