@@ -253,6 +253,18 @@ body {
   top: -20px;
 }
 
+.pricing1 .texxt .intro {
+    font-family: 'Nunito', sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 25px;
+}
+
+.pricing1 .texxt .intro span {
+    font-family: 'Nunito', sans-serif;
+    color: #117A3D;
+    font-size: 25px;
+}
 .mainsec  .img1{
   display: block;
   margin: auto;
