@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./Styles/shop.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="navbar"> 
+            <div class="logo"><img src="./Images/GreenCan logo-01.png" alt="main-logo"></div>
+            <ul class="nav-links">
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a>
+            </ul>
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Picture">
+                <div class="dropdown">
+                    <a href="#dashboard">Dashboard</a>
+                    <a href="#settings">Settings</a>
+                    <a href="#logout">Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="maindiv">
+            <header>
+                <h1>GreenCan Shop</h1>
+                <button id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button>
+            </header>
+            
+            <div class="shop-container">
+                <div class="product" data-name="Eco Bag" data-price="10">
+                    <img src="eco-bag.jpg" alt="Eco Bag">
+                    <h2>Eco Bag</h2>
+                    <p>$10</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                
+                <div class="product" data-name="Recycled Bottle" data-price="8">
+                    <img src="recycled-bottle.jpg" alt="Recycled Bottle">
+                    <h2>Recycled Bottle</h2>
+                    <p>$8</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                
+                <div class="product" data-name="Bamboo Straw" data-price="5">
+                    <img src="bamboo-straw.jpg" alt="Bamboo Straw">
+                    <h2>Bamboo Straw</h2>
+                    <p>$5</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div id="cart-sidebar" class="cart-sidebar">
+                <h2>Your Cart</h2>
+                <ul id="cart-items"></ul>
+                <p>Total: $<span id="cart-total">0</span></p>
+                <button id="checkout-btn">Checkout</button>
+                <button id="close-cart">Close</button>
+            </div>
+        </div>
+<script src="./Scripts/shop.js"></script>
+</body>
+</html>
