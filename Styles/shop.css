@@ -173,10 +173,6 @@ header {
 }
 
 
-.maindiv2 button{
-    display: none;
-}
-
 #cart-btn {
         position: absolute;
         background-color: #4CAF50;
