@@ -47,20 +47,83 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     checkoutBtn.addEventListener("click", () => {
-        let receipt = "Receipt:\n";
+        let receiptContent = `<div class='receipt'>
+            <img src='logo.png' alt='GreenCan Logo' class='receipt-logo'>
+            <h2>GreenCan Receipt</h2>
+            <div class='receipt-items'>`;
+        
         let total = 0;
         cart.forEach(item => {
             total += item.price * item.quantity;
-            receipt += `${item.name} x${item.quantity} - $${item.price * item.quantity}\n`;
+            receiptContent += `<div><span>${item.name} x${item.quantity}</span> <span>$${item.price * item.quantity}</span></div>`;
         });
-        receipt += `Total: $${total}\nThank you for shopping with GreenCan!`;
+        
+        receiptContent += `</div>
+            <h3>Total: $${total}</h3>
+            <div class='receipt-footer'>
+                <p>CEO OF GREENCAN</p>
+                <p><strong>Vansh Patel</strong></p>
+                <img src='signature.png' alt='Signature' width='100'>
+            </div>
+        </div>`;
         
         let printWindow = window.open('', '', 'width=400,height=600');
-        printWindow.document.write(`<pre>${receipt}</pre>`);
+        printWindow.document.write(receiptContent);
         printWindow.document.close();
         printWindow.print();
         cart = [];
         updateCart();
         cartSidebar.classList.remove("active");
     });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const receiptItems = document.getElementById("receipt-items");
+    const subtotalElem = document.getElementById("subtotal");
+    const taxElem = document.getElementById("tax");
+    const totalElem = document.getElementById("total");
+    const dateElem = document.getElementById("receipt-date");
+    const receiptDiv = document.getElementById("receipt");
+    
+    dateElem.textContent = new Date().toLocaleDateString();
+    
+    let cart = [
+        { name: "Eco Bag", price: 10, quantity: 1 },
+        { name: "Recycled Bottle", price: 8, quantity: 2 }
+    ];
+    
+    function updateReceipt() {
+        receiptItems.innerHTML = "";
+        let subtotal = 0;
+        
+        cart.forEach((item, index) => {
+            let itemTotal = item.price * item.quantity;
+            subtotal += itemTotal;
+            let row = document.createElement("tr");
+            row.innerHTML = `
+                <td>${item.quantity}</td>
+                <td>${item.name}</td>
+                <td>$${item.price.toFixed(2)}</td>
+                <td>$${itemTotal.toFixed(2)}</td>
+                <td><button class="cancel-btn" onclick="removeItem(${index})">X</button></td>
+            `;
+            receiptItems.appendChild(row);
+        });
+        
+        let tax = subtotal * 0.06;
+        let total = subtotal + tax;
+        subtotalElem.textContent = subtotal.toFixed(2);
+        taxElem.textContent = tax.toFixed(2);
+        totalElem.textContent = total.toFixed(2);
+    }
+    
+    window.removeItem = (index) => {
+        cart.splice(index, 1);
+        updateReceipt();
+    };
+    
+    window.showReceipt = () => {
+        receiptDiv.style.display = "block";
+        updateReceipt();
+    };
 });
