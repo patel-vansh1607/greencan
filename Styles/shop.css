@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'LovelyHome';
+    src: url(/Fonts/LovelyHome-9aBZ.ttf);
+}
 
 .navbar {
     display: flex;
@@ -124,7 +128,7 @@ header {
     right: 0;
 }
 #cart-btn {
-    position: relative;
+    position: fixed;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -152,4 +156,9 @@ header {
 
 #cart-btn:hover::before {
     left: 10px;
+}
+
+.maindiv2 h1{
+    font-family: 'LovelyHome', sans-serif;
+    
 }
