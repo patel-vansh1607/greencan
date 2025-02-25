@@ -3,6 +3,82 @@
     src: url(/Fonts/LovelyHome-9aBZ.ttf);
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #1C3D2D ;
+    padding: 15px 20px;
+    color: white;
+    position: relative;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo img{
+    width: 300px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Nunito', serif;
+    transition: color 0.3s ease-in-out;
+}
+.nav-links a:hover {
+    color: #BDD530;
+}
+.profile {
+    position: relative;
+    display: flex;
+    padding-right: 20px;
+    justify-content: flex-end; 
+}
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.profile img:hover {
+    transform: scale(1.1);
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 150px;
+}
+.dropdown a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #117A3D;
+    transition: background 0.3s;
+}
+.dropdown a:hover {
+    background: #BDD530;
+    color: white;
+}
+.profile:hover .dropdown {
+    display: block;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #E0EECC; 
