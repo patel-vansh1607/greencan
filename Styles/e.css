@@ -10,14 +10,7 @@ body {
     min-height: 100vh;
 }
 
-.hero {
-    position: relative;
-    height: 100vh;
-    background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&q=80');
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-}
+
 
 .overlay {
     position: absolute;
