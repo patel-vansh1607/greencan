@@ -2,11 +2,7 @@
     font-family: 'LovelyHome';
     src: url(/Fonts/LovelyHome-9aBZ.ttf);
 }
-body{
-    background-color: #E0EECC;
-     margin: 0;
-    padding: 0;
-}
+
 .navbar {
     display: flex;
     justify-content: space-between; 
@@ -86,7 +82,12 @@ body{
     display: block;
 }
 
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: linear-gradient(to right, rgba(22, 101, 52, 0.596), rgba(20, 83, 45, 0.8));
+    margin: 0;
+    padding: 0;
+}
 
 .grid-container {
     display: grid;
@@ -228,7 +229,7 @@ body{
 }
 
 .intro{
-    padding-top: 6  00px;
+    padding-top: 400px;
 }
 .mainsec .title{
     font-family: 'LovelyHome', sans-serif ;
