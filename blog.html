@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./Styles/blog.css">
 </head>
 <body>
+   <div class="maindiv">
     <div class="hero">
         <div class="overlay"></div>
         <nav class="navbar">
@@ -47,6 +48,72 @@
                 </button>
             </div>
         </div>
+
+        <!-- Main Content -->
+  <main class="container">
+    <!-- Essay List -->
+    <div class="essay-list" id="essayList">
+      <!-- Essay Item 1 -->
+      <div class="essay-item">
+        <div class="essay-thumbnail">
+          <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Literature">
+        </div>
+        <div class="essay-info">
+          <h2>The Evolution of Modern Literature</h2>
+          <div class="author">By Emma Johnson</div>
+          <button class="read-more-btn" data-essay-id="1">Read More</button>
+        </div>
+      </div>
+
+      <!-- Essay Item 2 -->
+      <div class="essay-item">
+        <div class="essay-thumbnail">
+          <img src="https://images.unsplash.com/photo-1544396821-4dd40b938ad3?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Philosophy">
+        </div>
+        <div class="essay-info">
+          <h2>Philosophy in the Digital Age</h2>
+          <div class="author">By Marcus Chen</div>
+          <button class="read-more-btn" data-essay-id="2">Read More</button>
+        </div>
+      </div>
+
+      <!-- Essay Item 3 -->
+      <div class="essay-item">
+        <div class="essay-thumbnail">
+          <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Climate Change">
+        </div>
+        <div class="essay-info">
+          <h2>Climate Change: A Historical Perspective</h2>
+          <div class="author">By Sophia Rodriguez</div>
+          <button class="read-more-btn" data-essay-id="3">Read More</button>
+        </div>
+      </div>
     </div>
+
+    <!-- Essay Detail View (Hidden by default) -->
+    <div class="essay-detail" id="essayDetail">
+      <div class="essay-banner">
+        <img id="essayBanner" src="" alt="Essay Banner">
+        <button class="close-btn" id="closeBtn">×</button>
+      </div>
+      
+      <div class="essay-content">
+        <h2 id="essayTitle"></h2>
+        
+        <div class="author-info">
+          <img id="authorImage" src="" alt="Author">
+          <div>
+            <div id="authorName" class="author-name"></div>
+            <div id="authorRole" class="author-role"></div>
+          </div>
+        </div>
+        
+        <div id="essayContent" class="essay-body"></div>
+      </div>
+    </div>
+  </main>
+        </div>
+   </div>
+<script src="./Scripts/blog.js"></script>
 </body>
 </html>
