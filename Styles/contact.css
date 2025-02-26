@@ -9,7 +9,9 @@ body {
     background: linear-gradient(to bottom, #f0fdf4, #dcfce7);
     min-height: 100vh;
 }
-
+.logo img{
+    width: 300px;
+}
 .hero {
     position: relative;
     height: 500px;
