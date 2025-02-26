@@ -9,15 +9,7 @@ body {
     background-color: #E0EECC;
     text-align: center;
 }
-.navbar {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    background-color: #1C3D2D ;
-    padding: 15px 20px;
-    color: white;
-    position: relative;
-}
+
 .logo {
     font-size: 24px;
     font-weight: bold;

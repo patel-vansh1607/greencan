@@ -3,15 +3,7 @@
     src: url(/Fonts/LovelyHome-9aBZ.ttf);
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    background-color: #1C3D2D ;
-    padding: 15px 20px;
-    color: white;
-    position: relative;
-}
+
 .hero{
     z-index: 1;
 }
@@ -82,12 +74,6 @@
     display: block;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: linear-gradient(to right, rgba(22, 101, 52, 0.596), rgba(20, 83, 45, 0.8));
-    margin: 0;
-    padding: 0;
-}
 
 .grid-container {
     display: grid;
