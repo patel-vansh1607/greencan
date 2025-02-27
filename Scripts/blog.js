@@ -38,7 +38,7 @@ const essays = [
     },
     {
       id: 4,
-      title: "The Plastic Problem: How Our Oceans Are Drowning",
+      title: "Green Cities: How Urban Areas Can Fight Climate Change",
       author: {
         name: "David Mwangangi",
         role: "Environmental Historian",
@@ -50,15 +50,15 @@ const essays = [
     },
     {
       id: 5,
-      title: "The Plastic Problem: How Our Oceans Are Drowning",
+      title: "A World Without Trees: The Dangers of Deforestation",
       author: {
-        name: "Aisha Kamau",
+        name: "Priya Shah",
         role: "Environmental Historian",
         image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
       },
       thumbnail: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
       bannerImage: "https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
-      content: "Plastic pollution is one of the biggest threats to marine life. Every year, millions of tons of plastic end up in our oceans, harming fish, turtles, and seabirds. But how did we get here? <br><br> Plastic was invented to make life easier, but it has now become an environmental nightmare. Single-use plastics, such as bags, bottles, and straws, take hundreds of years to decompose. Instead of breaking down, they break into tiny pieces called microplastics, which are then eaten by marine animals. These plastics can travel up the food chain and even end up on our plates.<br><br> One of the worst examples of plastic pollution is the Great Pacific Garbage Patch, a massive area in the ocean filled with floating plastic waste. Scientists estimate that it contains over 1.8 trillion pieces of plastic.<br><br>The good news is that people are taking action. Many countries have banned plastic bags, and companies are developing biodegradable alternatives. Individuals can also help by reducing plastic use—choosing reusable water bottles, avoiding plastic packaging, and participating in beach clean-ups.<br><br> If we don’t act now, there will be more plastic than fish in the ocean by 2050. But with global efforts, we can turn the tide against plastic pollution and protect our marine life."
+      content: "Forests are often called the 'lungs of the Earth' because they absorb carbon dioxide and release oxygen. However, deforestation is destroying these vital ecosystems at an alarming rate. <br><br>Every year, millions of acres of forests are cleared for agriculture, logging, and urban development. This loss of trees not only affects the climate but also endangers countless species. Animals like orangutans, tigers, and sloths lose their homes due to deforestation. In the Amazon rainforest alone, 17% of the forest has been lost in the last 50 years.<br><br> The consequences of deforestation go beyond wildlife. Trees help regulate rainfall, prevent soil erosion, and keep temperatures stable. When forests disappear, weather patterns change, leading to droughts and floods.<br><br>Luckily, efforts are being made to combat deforestation. Many countries are implementing reforestation programs, encouraging tree planting, and banning illegal logging. Individuals can help by supporting sustainable products, reducing paper waste, and planting trees in their communities. <br><br> If we continue destroying forests at the current rate, future generations may not experience the beauty and benefits of these natural wonders. Protecting our trees means protecting our planet. "
     }
   ];
   
