@@ -1,510 +1,513 @@
 /* put this link as ur ceo https://uiverse.io/Smit-Prajapati/stupid-bullfrog-39 */
 
-.logo img{
-    width: 300px;
+.logo img {
+  width: 300px;
 }
 
 .hero {
   position: relative;
   height: 100vh;
-  background-image: url('/Images/page_images/about-us.avif');
+  background-image: url("/Images/page_images/about-us.avif");
   background-size: cover;
   background-position: center;
   overflow: hidden;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    color: var(--color-green-900);
-    background: linear-gradient(to bottom, var(--color-green-50), var(--color-green-100));
-    min-height: 100vh;
-    background-color: #d2dd96ab;
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-  
-  /* Header Styles */
-  .header {
-    background-color: var(--color-green-600);
-    color: var(--color-white);
-    padding: 1.5rem 0;
-    box-shadow: var(--shadow-md);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  
-  .logo-icon {
-    color: var(--color-green-200);
-  }
-  
-  .logo h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .nav {
-    display: none;
-  }
-  
-  .nav a {
-    color: var(--color-white);
-    text-decoration: none;
-    margin-left: 1.5rem;
-    transition: color 0.3s ease;
-  }
-  
-  .nav a:hover {
-    color: var(--color-green-200);
-  }
-  
-  /* Motto Section */
-  .motto-section {
-    min-height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 3rem 0;
-    margin-bottom: 6rem;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .motto-section p {
-    font-size: 1.25rem;
-    color: var(--color-green-600);
-    font-style: italic;
-    max-width: 600px;
-  }
-  
-  /* Vision & Mission Section */
-  .vision-section {
-    margin-bottom: 6rem;
-  }
-  
-  .card-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  
-  .card {
-    background-color: var(--color-white);
-    border-radius: 0.5rem;
-    padding: 2rem;
-    box-shadow: var(--shadow-lg);
-    transition: transform 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .card-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-  }
-  
-  .card-icon {
-    color: var(--color-green-600);
-    margin-right: 0.75rem;
-  }
-  
-  .card h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .card p {
-    font-size: 1rem;
-  }
-  
-  
-  
-  /* Logo Section */
-  .logo-section {
-    margin-bottom: 6rem;
-  }
-  
-  .logo-container {
-    background-color: var(--color-white);
-    border-radius: 0.5rem;
-    padding: 2rem;
-    box-shadow: var(--shadow-lg);
-  }
-  
-  .logo-container h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  .logo-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-  }
-  
-  .logo-image {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .logo-circle {
-    width: 12rem;
-    height: 12rem;
-    background-color: var(--color-green-600);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: var(--shadow-lg);
-    color: var(--color-white);
-  }
-  
-  .logo-description {
-    max-width: 100%;
-  }
-  
-  .logo-description p {
-    margin-bottom: 1rem;
-    font-size: 1rem;
-  }
-  
-  .logo-placeholder {
-    background-color: var(--color-green-50);
-    border-left: 4px solid var(--color-green-500);
-    padding: 1rem;
-    margin: 1rem 0;
-  }
-  
-  .logo-placeholder p {
-    font-style: italic;
-    margin-bottom: 0;
-  }
-  
-  /* Footer */
-  .footer {
-    background-color: var(--color-green-800);
-    color: var(--color-white);
-    padding: 3rem 0;
-  }
-  
-  .footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
-  
-  .footer-logo {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  
-  .footer-icon {
-    color: var(--color-green-300);
-  }
-  
-  .footer-logo span {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .footer-copyright {
-    text-align: center;
-  }
-  
-  .footer-motto {
-    color: var(--color-green-300);
-    margin-top: 0.5rem;
-  }
-  
-  /* Media Queries */
-  @media (min-width: 768px) {
-    .nav {
-      display: flex;
-    }
-    
-    .motto-section h2 {
-      font-size: 4rem;
-    }
-    
-    .card-container {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .timeline-line {
-      display: block;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      height: 100%;
-      width: 4px;
-      background-color: var(--color-green-300);
-    }
-    
-    .timeline-item {
-      flex-direction: row;
-      align-items: center;
-    }
-    
-    .timeline-content {
-      width: calc(50% - 2rem);
-    }
-    
-    .timeline-content-left {
-      text-align: right;
-      margin-right: 2rem;
-    }
-    
-    .timeline-content-right {
-      margin-left: 2rem;
-      order: 1;
-    }
-    
-    .logo-content {
-      flex-direction: row;
-      align-items: flex-start;
-    }
-    
-    .logo-image {
-      width: 33.333%;
-    }
-    
-    .logo-description {
-      width: 66.666%;
-    }
-    
-    .footer-content {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-    
-    .footer-copyright {
-      text-align: right;
-    }
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .team-section {
-    padding: 6rem 0;
-    background-color: #f9fafb;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--color-green-900);
+  background: linear-gradient(
+    to bottom,
+    var(--color-green-50),
+    var(--color-green-100)
+  );
+  min-height: 100vh;
+  background-color: #d2dd96ab;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header Styles */
+.header {
+  background-color: var(--color-green-600);
+  color: var(--color-white);
+  padding: 1.5rem 0;
+  box-shadow: var(--shadow-md);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-icon {
+  color: var(--color-green-200);
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: none;
+}
+
+.nav a {
+  color: var(--color-white);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: var(--color-green-200);
+}
+
+/* Motto Section */
+.motto-section {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 0;
+  margin-bottom: 6rem;
+}
+
+.motto-section p {
+  font-size: 1.25rem;
+  color: var(--color-green-600);
+  font-style: italic;
+  max-width: 600px;
+}
+
+/* Vision & Mission Section */
+.vision-section {
+  margin-bottom: 6rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--color-white);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.card-icon {
+  color: var(--color-green-600);
+  margin-right: 0.75rem;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+/* Logo Section */
+.logo-section {
+  margin-bottom: 6rem;
+}
+
+.logo-container {
+  background-color: var(--color-white);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: var(--shadow-lg);
+}
+
+.logo-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo-image {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-circle {
+  width: 12rem;
+  height: 12rem;
+  background-color: var(--color-green-600);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  color: var(--color-white);
+}
+
+.logo-description {
+  max-width: 100%;
+}
+
+.logo-description p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.logo-placeholder {
+  background-color: var(--color-green-50);
+  border-left: 4px solid var(--color-green-500);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.logo-placeholder p {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-green-800);
+  color: var(--color-white);
+  padding: 3rem 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-icon {
+  color: var(--color-green-300);
+}
+
+.footer-logo span {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-motto {
+  color: var(--color-green-300);
+  margin-top: 0.5rem;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+  }
+
+  .motto-section h2 {
+    font-size: 4rem;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .timeline-line {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 4px;
+    background-color: var(--color-green-300);
+  }
+
+  .timeline-item {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .timeline-content {
+    width: calc(50% - 2rem);
+  }
+
+  .timeline-content-left {
+    text-align: right;
+    margin-right: 2rem;
+  }
+
+  .timeline-content-right {
+    margin-left: 2rem;
+    order: 1;
+  }
+
+  .logo-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .logo-image {
+    width: 33.333%;
+  }
+
+  .logo-description {
+    width: 66.666%;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-copyright {
+    text-align: right;
+  }
+}
+
+.team-section {
+  padding: 6rem 0;
+  background-color: #f9fafb;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .section-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #1f2937;
-    text-align: center;
-    margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .section-description {
-    font-size: 1.25rem;
-    color: #6b7280;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 4rem;
+  font-size: 1.25rem;
+  color: #6b7280;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
 }
 
 .team-category {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .category-title {
-    font-size: 1.75rem;
-    font-weight: 600;
-    color: #166534;
-    margin-bottom: 2rem;
-    text-align: center;
-    position: relative;
-    padding-bottom: 1rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #166534;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
 }
 
 .category-title::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 3px;
-    background-color: #166534;
-    border-radius: 3px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #166534;
+  border-radius: 3px;
 }
 
 .team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2.5rem;
 }
 
 .team-grid.single {
-    grid-template-columns: minmax(300px, 600px);
-    justify-content: center;
+  grid-template-columns: minmax(300px, 600px);
+  justify-content: center;
 }
 
 .team-card {
-    background-color: white;
-    border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
 }
 
 .team-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
 .team-image {
-    height: 300px;
-    overflow: hidden;
+  height: 300px;
+  overflow: hidden;
 }
 
 .team-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
 }
 
 .team-card:hover .team-image img {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .team-info {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .team-name {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #1f2937;
-    margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
 }
 
 .team-position {
-    font-size: 1rem;
-    color: #166534;
-    font-weight: 500;
-    margin-bottom: 0.75rem;
+  font-size: 1rem;
+  color: #166534;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
 }
 
 .team-country {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.875rem;
-    color: #6b7280;
-    margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
 }
 
 .team-country i {
-    width: 1rem;
-    height: 1rem;
-    color: #166534;
+  width: 1rem;
+  height: 1rem;
+  color: #166534;
 }
 
 .team-bio {
-    font-size: 0.95rem;
-    color: #4b5563;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
 .team-social {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    background-color: #f3f4f6;
-    border-radius: 50%;
-    color: #166534;
-    transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #f3f4f6;
+  border-radius: 50%;
+  color: #166534;
+  transition: all 0.2s ease;
 }
 
 .social-link:hover {
-    background-color: #166534;
-    color: white;
-    transform: translateY(-3px);
+  background-color: #166534;
+  color: white;
+  transform: translateY(-3px);
 }
 
 .social-link i {
-    width: 1.25rem;
-    height: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .join-team-banner {
-    margin-top: 4rem;
-    background: linear-gradient(135deg, #166534 0%, #15803d 100%);
-    border-radius: 1rem;
-    padding: 3rem 2rem;
-    text-align: center;
-    color: white;
+  margin-top: 4rem;
+  background: linear-gradient(135deg, #166534 0%, #15803d 100%);
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: white;
 }
 
 .banner-content {
-    max-width: 600px;
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .banner-content h3 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .banner-content p {
-    font-size: 1.125rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
 }
 
 .banner-content .primary-button {
-    margin: 0 auto;
-    display: inline-flex;
+  margin: 0 auto;
+  display: inline-flex;
 }
