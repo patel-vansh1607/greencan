@@ -1,8 +1,21 @@
-@font-face {
-    font-family: 'LovelyHome';
-    src: url(/Fonts/LovelyHome-9aBZ.ttf);
-}
-
+:root {
+    --primary-color: #4CAF50;
+    --primary-dark: #388E3C;
+    --primary-light: #A5D6A7;
+    --secondary-color: #2196F3;
+    --text-color: #333333;
+    --text-light: #666666;
+    --background-light: #F5F5F5;
+    --white: #FFFFFF;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--text-color);
+    background-color: var(--background-light);
+  }
+  
 
 .hero{
     z-index: 1;
@@ -221,91 +234,236 @@
     
 }
 
-.intro{
-    padding-top: 400px;
-}
-.mainsec .title{
-    font-family: 'LovelyHome', sans-serif ;
-    font-size: 150px;
-    position: relative;
-    top: -350px;
+.services {
+    padding: 5rem 2rem;
+    background-color: var(--white);
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+  }
+  
+  .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--text-light);
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service-card {
+    background-color: var(--background-light);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
+    flex-direction: column;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    border-radius: 50%;
+    background-color: var(--primary-light);
+    display: flex;
+    align-items: center;
     justify-content: center;
-}
-.pricing1{
-  position: relative;
-  top: -500px;
-}
-.pricing1 .texxt .p111{
-  font-family: 'LovelyHome', sans-serif;
-  font-size: 100px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 100px;
-}
- 
-.pricing1 .texxt .imgg{
-  display: block;
-  margin: auto;
-  width: 400px;
-  position: relative;
-  top: -20px;
-}
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .waste-management {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234CAF50'%3E%3Cpath d='M9 3v1H4v2h1v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6h1V4h-5V3H9m0 5h2v9H9V8m4 0h2v9h-2V8Z'/%3E%3C/svg%3E");
+  }
+  
+  .energy-audit {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234CAF50'%3E%3Cpath d='M7 2v11h3v9l7-12h-4l4-8H7Z'/%3E%3C/svg%3E");
+  }
+  
+  .sustainable-packaging {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234CAF50'%3E%3Cpath d='M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.991.991 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88v9M12 4.15 6.04 7.5 12 10.85l5.96-3.35L12 4.15Z'/%3E%3C/svg%3E");
+  }
+  
+  .carbon-footprint {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234CAF50'%3E%3Cpath d='M17.66 11.2c-.23-.3-.51-.56-.77-.82-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32-2.59 2.08-3.61 5.75-2.39 8.9.04.1.08.2.08.33 0 .22-.15.42-.35.5-.23.1-.47.04-.66-.12a.58.58 0 0 1-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5.14.6.41 1.2.71 1.73 1.08 1.73 2.95 2.97 4.96 3.22 2.14.27 4.43-.12 6.07-1.6 1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26m-3.16 6.3c-.28.24-.74.5-1.1.6-1.12.4-2.24-.16-2.9-.82 1.19-.28 1.9-1.16 2.11-2.05.17-.8-.15-1.46-.28-2.23-.12-.74-.1-1.37.17-2.06.19.38.39.76.63 1.06.77 1 1.98 1.44 2.24 2.8.04.14.06.28.06.43.03.82-.33 1.72-.93 2.27Z'/%3E%3C/svg%3E");
+  }
+  
+  .green-consulting {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234CAF50'%3E%3Cpath d='M12 3c5.5 0 10 3.58 10 8s-4.5 8-10 8c-1.24 0-2.43-.18-3.53-.5C5.55 21 2 21 2 21c2.33-2.33 2.7-3.9 2.75-4.5C3.05 15.07 2 13.13 2 11c0-4.42 4.5-8 10-8m5 9v-2h-2v2h2m-4 0v-2h-2v2h2m-4 0v-2H7v2h2Z'/%3E%3C/svg%3E");
+  }
+  
+  .water-conservation {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234CAF50'%3E%3Cpath d='M12 20c-3.31 0-6-2.69-6-6 0-4 6-10.75 6-10.75S18 10 18 14c0 3.31-2.69 6-6 6m.33-9.5h-1.5v4h1.5v-4m-.75 5.5c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1Z'/%3E%3C/svg%3E");
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--primary-dark);
+  }
+  
+  .service-card p {
+    flex-grow: 1;
+    margin-bottom: 1.5rem;
+    color: var(--text-light);
+  }
+  
+  .learn-more {
+    align-self: flex-start;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  .learn-more:hover {
+    color: var(--primary-dark);
+  }
+  
+  .learn-more::after {
+    content: "→";
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .learn-more:hover::after {
+    transform: translateX(4px);
+  }
+  
+  /* CTA Section */
+  .cta {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cta h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+  
+  .cta .btn {
+    background-color: var(--white);
+    color: var(--primary-color);
+  }
+  
+  .cta .btn:hover {
+    background-color: var(--background-light);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: var(--white);
+    padding: 3rem 2rem 1rem;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+  }
+  
+  .footer-section h3 {
+    color: var(--primary-light);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: var(--primary-light);
+  }
+  
+  .copyright {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    
+    .logo-container {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    
+    nav ul {
+      gap: 1rem;
+    }
+    
+    .hero {
+      padding: 4rem 1rem;
+    }
+    
+    .hero h2 {
+      font-size: 2rem;
+    }
+    
+    .services {
+      padding: 3rem 1rem;
+    }
+    
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .cta {
+      padding: 3rem 1rem;
+    }
+  }
 
-.pricing1 .texxt .intro {
-    font-family: 'Nunito', sans-serif;
-    padding-left: 80px;
-    padding-right: 80px;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.pricing1 .texxt .intro span {
-    font-family: 'Nunito', sans-serif;
-    color: #117A3D;
-    font-size: 25px;
-    font-weight: 800;
-}
-.mainsec  .img1{
-  display: block;
-  margin: auto;
-  width: 400px;
-  position: relative;
-  top: -540px;
-}
-
-.container {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  position:relative;
-  top: 200px;
-}
-.plans {
-  background: #2e7d32;
-  padding: 20px;
-  border-radius: 10px;
-  color: white;
-  width: 250px;
-}
-.plan:hover {
-  background: #1b5e20;
-  cursor: pointer;
-}
-.plan {
-  padding: 15px;
-  margin: 10px 0;
-  background: #43a047;
-  border-radius: 8px;
-  transition: 0.3s;
-}
-.details {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  color: #2e7d32;
-  max-width: 600px;
-  display: none;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
