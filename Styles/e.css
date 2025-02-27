@@ -333,3 +333,7 @@ body {
     flex-direction: column;
   }
 }
+
+.logo img {
+  width: 300px;
+}
