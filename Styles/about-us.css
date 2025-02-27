@@ -1,17 +1,7 @@
 /* put this link as ur ceo https://uiverse.io/Smit-Prajapati/stupid-bullfrog-39 */
 
-.logo img {
-  width: 300px;
-}
 
-.hero {
-  position: relative;
-  height: 100vh;
-  background-image: url("/Images/page_images/about-us.avif");
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -43,6 +33,18 @@ body {
   padding: 0 1rem;
 }
 
+.logo img {
+  width: 300px;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url("/Images/page_images/about-us.avif");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
 /* Header Styles */
 .header {
   background-color: var(--color-green-600);
@@ -58,12 +60,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 .logo-icon {
