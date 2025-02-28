@@ -467,3 +467,212 @@
     }
   }
 
+  .pricing-section {
+    max-width: 1200px;
+    margin: -100px auto 6rem;
+    padding: 0 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.segment-selector {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.segment-button {
+    background: white;
+    border: 2px solid #e5e7eb;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4b5563;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.segment-button i {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.segment-button.active {
+    background: #166534;
+    border-color: #166534;
+    color: white;
+}
+
+.segment-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-segment {
+    display: none;
+}
+
+.pricing-segment.active {
+    display: block;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.segment-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.segment-description {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 3rem;
+    font-size: 1.125rem;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.pricing-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card.popular {
+    background: linear-gradient(135deg, #166534 0%, #15803d 100%);
+    color: white;
+}
+
+.pricing-card.popular .pricing-price,
+.pricing-card.popular .pricing-description,
+.pricing-card.popular .pricing-features {
+    color: white;
+}
+
+.pricing-card.popular .plan-badge {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.pricing-card.popular .pricing-button {
+    background: white;
+    color: #166534;
+}
+
+.pricing-card.popular .feature-icon {
+    color: white;
+}
+
+.pricing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.plan-badge {
+    background: #f0fdf4;
+    color: #166534;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.plan-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #166534;
+}
+
+.pricing-price {
+    margin-bottom: 1.5rem;
+    color: #1f2937;
+}
+
+.amount {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.period {
+    font-size: 1.125rem;
+    color: #6b7280;
+}
+
+.pricing-description {
+    color: #6b7280;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.pricing-features {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.pricing-features li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    color: #4b5563;
+}
+
+.feature-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #166534;
+    flex-shrink: 0;
+}
+
+.pricing-button {
+    width: 100%;
+    background: #166534;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all 0.2s;
+}
+
+.pricing-button:hover {
+    background: #15803d;
+    transform: translateY(-2px);
+}
+
+.pricing-button i {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.pricing-section{
+  margin-top: 100px;
+}
