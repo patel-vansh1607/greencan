@@ -18,7 +18,14 @@ body {
   background-position: center;
   overflow: hidden;
 }
-
+hr{
+  position: relative;
+  top:100px;
+}
+.shop-container{
+  position: relative;
+  top: 100px;
+}
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -91,6 +98,7 @@ body {
   font-size: 50px;
   padding-left: 80px;
   padding-right: 80px;
+  padding-top: 100px;
 }
 
 .maindiv2 .p90 span {
@@ -100,7 +108,7 @@ body {
   font-weight: 600;
 }
 .shop-container .p240 {
-  font-family: "LovelyHome", sans-serif;
+  font-family: 'LovelyHome', sans-serif;
   font-size: 50px;
   padding-left: 80px;
   padding-right: 80px;
