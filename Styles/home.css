@@ -592,3 +592,7 @@ footer {
 .hidden {
   display: none;
 }
+
+[data-lucide] {
+  color: black; 
+}
