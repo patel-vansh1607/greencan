@@ -86,11 +86,15 @@ body {
   width: 2rem;
   height: 2rem;
 }
-
+.navbar{
+  background-color: #00000062;
+  opacity: 30;
+}
 .nav-links {
   display: flex;
   gap: 2rem;
   align-items: center;
+
 }
 
 .nav-links a {
