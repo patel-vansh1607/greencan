@@ -492,8 +492,8 @@ footer {
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(255, 59, 48, 0.4);
-  max-width: 500px;
-  width: 90%;
+  max-width: 900px;
+  width: 900px;
   text-align: center;
   border: 2px solid #d81e1e;
   animation: pulse 1.5s infinite;
