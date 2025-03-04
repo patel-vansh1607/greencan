@@ -28,5 +28,9 @@
   });
 
 
+  document.addEventListener('DOMContentLoaded', function() {
+    lucide.createIcons(); // Initialize Lucide icons after the page loads
+});
+
 lucide.createIcons(); // Initialize Lucide icons
 
