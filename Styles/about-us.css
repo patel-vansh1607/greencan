@@ -514,3 +514,7 @@ body {
   margin: 0 auto;
   display: inline-flex;
 }
+
+[data-lucide] {
+  color: black; 
+}
