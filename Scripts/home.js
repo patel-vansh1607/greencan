@@ -26,3 +26,7 @@
       mainsecContent.classList.remove('hidden');
     });
   });
+
+
+lucide.createIcons(); // Initialize Lucide icons
+
