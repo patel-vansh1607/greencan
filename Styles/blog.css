@@ -252,3 +252,8 @@
   margin-right: 0.5rem;
   color: #2e7d32;
 }
+/* For the parent container holding all essay items */
+.essay-container { 
+  display: flex;
+  gap: 20px; /* Adjust spacing as needed */
+} 
