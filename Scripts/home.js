@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const confirmationOverlay = document.getElementById('confirmation-overlay');
   const mainContent = document.getElementById('main-content');
   const mainsecContent = document.getElementById('mainsec-content');
-
+  
   if (agreeCheckbox && continueButton && confirmButton) {
       agreeCheckbox.addEventListener('change', function() {
           continueButton.disabled = !this.checked;

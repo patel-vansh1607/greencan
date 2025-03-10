@@ -389,3 +389,39 @@ body {
   display: inline-block;
   margin: 0 30px;
 }
+
+
+/* Media Queries for Phones */
+@media (max-width: 600px) {
+  .sec1 img {
+    width: 80%;
+    max-width: 200px;
+  }
+
+  .sec2 h4 {
+    font-size: 1.2rem;
+  }
+
+  .mainlogo {
+    max-width: 90%;
+  }
+
+  .btn1 button {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 14px;
+  }
+}
+
+/* Media Queries for Tablets */
+@media (max-width: 1024px) {
+  .sec1 img {
+    width: 70%;
+    max-width: 250px;
+  }
+
+  .btn1 button {
+    font-size: 1.1rem;
+    padding: 14px 20px;
+  }
+}
