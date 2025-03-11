@@ -1,4 +1,5 @@
 import React from "react";
+import circlegradient from './images/circle-gradient.png'
 
 const Welcome = () => {
   return (
@@ -9,8 +10,8 @@ const Welcome = () => {
         ))}
       </div>
       <div className="sec1">
-        <img src="./Images/circle-gradient.png" alt="circle-gradient" />
-        <img className="img2" src="./Images/circle-gradient.png" alt="circle-gradient" />
+      <img src={circlegradient} alt="GreenCan Logo" />
+        <img src={circlegradient} alt="GreenCan Logo" className= "img2"/>
       </div>
       <div className="sec2">
         <h4>Welcome to</h4>
