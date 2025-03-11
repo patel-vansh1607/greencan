@@ -1,2 +1,2 @@
 ---
-<img src='./src/images/readme-lg.png'>
+<img src='./src/images/readmelg.png'>
