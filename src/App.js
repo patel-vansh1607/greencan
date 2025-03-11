@@ -2,6 +2,7 @@ import React from "react";
 import circlegradient from './images/circle-gradient.png'
 import greencanlogo from './images/GreenCan logo-01.png'
 import './App.css'
+import { Link } from "react-router-dom";
 
 
 const Welcome = () => {
@@ -16,13 +17,14 @@ const Welcome = () => {
       <img src={circlegradient} alt="circle-gradient" />
       <img src={circlegradient} alt="circle-gradient" className= "img2"/>
       </div>
+      
       <div className="sec2">
-        <h4>Welcome to</h4>
-        <img src={greencanlogo} alt="greencanlogo" />
+      <h4>Welcome to</h4>
+        <img src={greencanlogo} alt="greencanlogo" className="mainlogo" />
       </div>
       <div className="sec3">
         <div className="btn1">
-          <a href="./">
+          <Link to="/accounts">
             <button>
               Login / Sign Up
               <div className="icon-1">
@@ -48,7 +50,7 @@ const Welcome = () => {
                 </svg>
               </div>
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
