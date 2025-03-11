@@ -22,7 +22,7 @@ const Welcome = () => {
       </div>
       <div className="sec3">
         <div className="btn1">
-          <a href="./accounts.html">
+          <a href="./">
             <button>
               Login / Sign Up
               <div className="icon-1">
