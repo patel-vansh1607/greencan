@@ -17,7 +17,6 @@ const Welcome = () => {
       <img src={circlegradient} alt="circle-gradient" />
       <img src={circlegradient} alt="circle-gradient" className= "img2"/>
       </div>
-      
       <div className="sec2">
       <h4>Welcome to</h4>
         <img src={greencanlogo} alt="greencanlogo" className="mainlogo" />

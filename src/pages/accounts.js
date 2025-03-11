@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import './accounts.css'
 import greencanlogo from '../images/GreenCan logo-01.png'
 
 function AccountsPage(){
     const [isLogin, setIsLogin] = useState(true);
-
-    
     return(
         <div className="container">
         <div className={`form-box ${isLogin ? "login" : "register"}`}>
