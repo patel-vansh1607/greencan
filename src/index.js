@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import AccountsPage from './pages/accounts';
+import Navbar from './components/NavBar';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: '/accounts',
     element: <AccountsPage/>
+  },
+  {
+    path: '/navbar',
+    element: <Navbar/>
   }
 ])
 
