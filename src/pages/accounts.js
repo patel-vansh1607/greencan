@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import greencanlogo from '../images/GreenCan logo-01.png'
 import Navbar from "../components/NavBar";
-import Footer from "../components/footer";
 
+  
 function AccountsPage(){
     const [isLogin, setIsLogin] = useState(true);
     return(
         <div className="container">
-         <Navbar/>
-        <div className={`form-box ${isLogin ? "login" : "register"}`}>
+       <div className={`form-box ${isLogin ? "login" : "register"}`}>
         <form>
           <h1>{isLogin ? "Login" : "Registration"}</h1>
 
