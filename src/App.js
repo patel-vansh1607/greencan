@@ -24,7 +24,7 @@ const Welcome = () => {
       <div className="sec3">
         <div className="btn1">
           <Link to="/accounts">
-            <button>
+            <button className="btn1">
               Login / Sign Up
               <div className="icon-1">
                 <svg
