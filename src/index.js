@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import AccountsPage from './pages/accounts';
 import Navbar from './components/NavBar';
+import Footer from './components/footer';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: '/navbar',
     element: <Navbar/>
+  },
+  {
+    path: '/footer',
+    element: <Footer/>
   }
 ])
 
