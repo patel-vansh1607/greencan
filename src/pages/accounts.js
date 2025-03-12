@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import greencanlogo from '../images/GreenCan logo-01.png'
+import Navbar from "../components/NavBar";
 
 function AccountsPage(){
     const [isLogin, setIsLogin] = useState(true);
