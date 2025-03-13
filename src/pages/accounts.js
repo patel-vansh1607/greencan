@@ -10,7 +10,7 @@ function AccountsPage(){
        <div className={`form-box ${isLogin ? "login" : "register"}`}>
         <form>
           <h1>{isLogin ? "Login" : "Registration"}</h1>
-
+          
           <div className="input-box">
             <input type="text" placeholder="Username" required />
             <i className="bx bxs-user"></i>
@@ -60,7 +60,7 @@ function AccountsPage(){
         </div>
       </div>
 
-      <a href="home.html">
+      <a href="./home">
         <button className="btn login-btn">Stay Logged Out</button>
       </a>
     </div>
