@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './home.css'
+import Navbar from "../components/NavBar";
 
 const Home = () => {
   const [isCopyrightAccepted, setIsCopyrightAccepted] = useState(
@@ -19,6 +20,7 @@ const Home = () => {
 
   return (
     <div>
+        <Navbar/>
       {!isCopyrightAccepted && (
         <div className="overlay" id="copyright-overlay">
           <div className="popup" id="copyright-popup">
@@ -95,17 +97,25 @@ const Home = () => {
           <section className="services">
             <h2>Our Services</h2>
             <div className="services-grid">
-              <div className="service-card">
-                <h3>♻️ Recycling Programs</h3>
-                <p>Comprehensive recycling solutions for homes and businesses.</p>
+            <div class="service-card">
+                <div class="service-icon">♻️</div>
+                <h3>Recycling Programs</h3>
+                <p>Comprehensive recycling solutions tailored to your specific needs, whether residential or commercial.</p>
               </div>
-              <div className="service-card">
-                <h3>🌱 Composting</h3>
-                <p>Turn organic waste into valuable compost.</p>
+              <div class="service-card">
+                <div class="service-icon">🌱</div>
+                <h3>Composting</h3>
+                <p>Turn organic waste into valuable compost with our efficient composting services.</p>
               </div>
-              <div className="service-card">
-                <h3>📊 Waste Audits</h3>
-                <p>Analyze waste streams to optimize recycling.</p>
+              <div class="service-card">
+                <div class="service-icon">🏢</div>
+                <h3>Commercial Solutions</h3>
+                <p>Specialized waste management programs designed for businesses of all sizes.</p>
+              </div>
+              <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Waste Audits</h3>
+                <p>Detailed analysis of your waste stream to identify opportunities for reduction and recycling.</p>
               </div>
             </div>
           </section>
