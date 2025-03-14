@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import greencanlogo from '../images/GreenCan logo-01.png'
 import Navbar from "../components/NavBar";
+import PinLock from "../components/pinlock";
 
   
 function AccountsPage(){
     const [isLogin, setIsLogin] = useState(true);
     return(
-        <div className="container">
+        <div className="container">  
+      <PinLock>
        <div className={`form-box ${isLogin ? "login" : "register"}`}>
         <form>
           <h1>{isLogin ? "Login" : "Registration"}</h1>
@@ -63,6 +65,7 @@ function AccountsPage(){
       <a href="./home">
         <button className="btn login-btn">Stay Logged Out</button>
       </a>
+      </PinLock>
     </div>
     )
 }
