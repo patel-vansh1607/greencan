@@ -3,11 +3,13 @@ import circlegradient from './images/circle-gradient.png'
 import greencanlogo from './images/GreenCan logo-01.png'
 import './App.css'
 import { Link } from "react-router-dom";
+import PinLock from "./components/pinlock";
 
 
 const Welcome = () => {
   return (
     <div>
+      <PinLock>
       <div id="leaves">
         {[...Array(15)].map((_, index) => (
           <i key={index}></i>
@@ -52,6 +54,7 @@ const Welcome = () => {
           </Link>
         </div>
       </div>
+      </PinLock>
     </div>
   );
 };
