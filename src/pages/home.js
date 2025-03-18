@@ -76,8 +76,10 @@ const Home = () => {
 
           <section className="about">
             <h2>About GreenCan</h2>
+            <div className="text1">
             <p>Whether you're an individual, business, or community, GreenCan helps you <br></br> turn waste into value through innovative recycling solutions, eco-friendly <br></br> initiatives, and our Green Credit Programme.<br></br> </p>
             <p>Founded in 2025, we aim to be at the forefront of the green revolution, helping<br></br> our clients minimize their environmental footprint while maximizing resource <br></br>efficiency.</p>
+            </div>
             <div class="about-stats">
                 <div class="stat-box">
                   <h3>160KG</h3>
