@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "LovelyHome";
+    src: url(/src/fonts/LovelyHome-9aBZ.ttf);
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0eecc;
+  
+    text-align: center;
+  }
+  .hero {
+    position: relative;
+    height: 100vh;
+    background-image: url("/src/images/page_images/shop.avif");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  hr{
+    position: relative;
+    top:100px;
+  }
+  .shop-container{
+    position: relative;
+    top: 100px;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .logo img {
+    width: 300px;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .nav-links li {
+    display: inline;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Nunito", serif;
+    transition: color 0.3s ease-in-out;
+  }
+  .nav-links a:hover {
+    color: #bdd530;
+  }
+  .profile {
+    position: relative;
+    display: flex;
+    padding-right: 20px;
+    justify-content: flex-end;
+  }
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .profile img:hover {
+    transform: scale(1.1);
+  }
+  .dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 150px;
+  }
+  .dropdown a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #117a3d;
+    transition: background 0.3s;
+  }
+  .dropdown a:hover {
+    background: #bdd530;
+    color: white;
+  }
+  .profile:hover .dropdown {
+    display: block;
+  }
+  
+  .maindiv2 .p90 {
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 100px;
+  }
+  
+  .maindiv2 .p90 span {
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    color: #117a3d;
+    font-weight: 600;
+  }
+  .shop-container .p240 {
+    font-family: 'LovelyHome', sans-serif;
+    font-size: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #117a3d;
+  }
+  header {
+    background: #4caf50;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+  }
+  
+  .shop-container {
+    .shop-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 columns */
+      gap: 20px;
+      margin-top: 20px;
+      padding: 20px;
+      justify-content: center;
+    }
+  }
+  
+  .product img {
+    width: 100%;
+    height: 200px; /* Adjust image height */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: center;
+  }
+  
+  .product h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Ensure buttons are always fixed at the bottom of product cards */
+  .product button {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: auto;
+  }
+  
+  .product button:hover {
+    background-color: #367c39;
+  }
+  
+  #cart-btn {
+    position: absolute;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out;
+  
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .cart-sidebar.active {
+    right: 0;
+  }
+  #cart-btn {
+    position: fixed;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #cart-btn:hover {
+    background-color: #367c39;
+  }
+  
+  #cart-btn::before {
+    content: "🛒";
+    position: absolute;
+    left: -40px;
+    font-size: 20px;
+    transition: left 0.5s ease-in-out;
+  }
+  
+  #cart-btn:hover::before {
+    left: 10px;
+  }
+  
+  .maindiv2 h1 {
+    font-family: "LovelyHome", sans-serif;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      rgba(22, 101, 52, 0.596),
+      rgba(20, 83, 45, 0.8)
+    );
+  }
+  
