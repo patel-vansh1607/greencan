@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import './home.css'
 import Navbar from "../components/NavBar";
 
-const Home = () => {
+const HomePage = () => {
   const [isCopyrightAccepted, setIsCopyrightAccepted] = useState(
     localStorage.getItem("copyrightAccepted") === "true"
   );
@@ -137,4 +137,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
