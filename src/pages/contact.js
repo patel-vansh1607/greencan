@@ -1,6 +1,6 @@
 
 import Navbar from "../components/NavBar";
-import ".//contact.css";
+import "../styles/contact.css";
 
 
 const ContactPage = () => {

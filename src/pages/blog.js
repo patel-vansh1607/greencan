@@ -1,4 +1,4 @@
-import "./blog.css"
+import "../styles/blog.css"
 import Navbar from "../components/NavBar";
 
 const essays = [

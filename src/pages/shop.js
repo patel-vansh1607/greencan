@@ -1,4 +1,4 @@
-import "./shop.css"
+import "../styles/shop.css"
 import React, { useState } from "react";
 import Navbar from "../components/NavBar";
 
